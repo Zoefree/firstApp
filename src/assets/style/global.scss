@@ -1,0 +1,34 @@
+/* table */
+#app {
+  .el-table--striped .el-table__body tr.el-table__row--striped td {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .el-table::before {
+    background-color: "";
+    z-index: 0;
+    height: 0;
+  }
+  .el-table__body tr.el-table__row {
+    color: #fff;
+  }
+  .el-table__body tr.el-table__row td {
+    background-color: #08193d;
+  }
+  .el-table th {
+    background-color: #193b82;
+    border: 0;
+  }
+  .el-style {
+    width: "50rem";
+  }
+  .el-table thead {
+    color: #82c3ff;
+  }
+  .el-table td,
+  .building-top .el-table th.is-leaf {
+    border: 0rem;
+  }
+  .el-table__body-wrapper {
+    background-color: #08193d;
+  }
+}
